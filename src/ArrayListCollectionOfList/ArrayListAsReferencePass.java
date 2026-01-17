@@ -28,7 +28,7 @@ class Student{
 public class ArrayListAsReferencePass {
 	 public static void main(String[] args) {
 
-	        List<String> sub1 = new ArrayList<>();
+	        List<String> sub1 = new ArrayList<>(); 
 	        sub1.add("Math");
 	        sub1.add("Java");
 	        Student s1 = new Student(sub1, 101);
